@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'login_page.dart';
+import 'package:tugas_besar/register.dart';
 
 void main() {
   runApp(const MainApp());
