@@ -41,7 +41,7 @@ class _RegisterViewState extends State<RegisterView> {
                 }
                 return null;
               }),
-                  controller: nikController,
+                  controller: nameController,
                   hintTxt: "Nama",
                   helperTxt: "Luis Gonzaga",
                   iconData: Icons.person),
