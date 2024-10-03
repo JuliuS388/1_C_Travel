@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:tugas_besar/profile.dart';
+import 'package:tugas_besar/login_page.dart';
+
 
 void main() {
   runApp(const MainApp());
@@ -10,8 +11,8 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: ProfileScreen(),
+    return const MaterialApp(
+      home: LoginView(),
     );
   }
 }
